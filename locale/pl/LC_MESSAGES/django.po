@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-09 00:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%"
+"100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%"
+"10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: .\app\templates\app\base.html:16
+#, fuzzy
+#| msgid "Informatics"
+msgid "Informatics SGGW"
+msgstr "Informatyka"
+
+#: .\app\templates\app\base.html:24
+msgid "About the faculty"
+msgstr "O Wydziale"
+
+#: .\app\templates\app\base.html:27
+msgid "About direction"
+msgstr "O Kierunku"
+
+#: .\app\templates\app\base.html:30 .\app\templates\app\index.html:50
+msgid "Program"
+msgstr "Program"
+
+#: .\app\templates\app\base.html:33 .\app\templates\app\index.html:150
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\app\templates\app\index.html:9
+msgid ""
+"The Faculty of Applied Informatics and Mathematics was established on "
+"January 1, 2008 on the basis of the Interfaculty Study of Computer Science "
+"and Econometrics (later called: Interfaculty Study of Computer Science "
+"Applications). The study was established by the Senate of the Warsaw "
+"University of Life Sciences (SGGW) on 24 January 2001. The aim of the study "
+"was to educate students in computer science and econometrics using the SGGW "
+"didactic base. The classes were conducted mainly by SGGW scientific staff "
+"dealing with mathematics and IT, employed in various University "
+"organizational units."
+msgstr ""
+"Wydział Zastosowań Informatyki i Matematyki powstał 1 stycznia 2008 roku na "
+"bazie Międzywydziałowego Studium Informatyki i Ekonometrii (późniejsza "
+"nazwa: Międzywydziałowe Studium Zastosowań Informatyki). Studium powołane "
+"zostało przez Senat Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie w "
+"dniu 24 stycznia 2001 roku. Celem Studium było kształcenie studentów w "
+"zakresie informatyki i ekonometrii z wykorzystaniem bazy dydaktycznej SGGW. "
+"Zajęcia prowadzone były w większości przez pracowników naukowych SGGW "
+"zajmujących się problematyką matematyczno-informatyczną, zatrudnionych w "
+"różnych jednostkach organizacyjnych Uczelni."
+
+#: .\app\templates\app\index.html:11
+msgid "Read more."
+msgstr "Czytaj więcej."
+
+#: .\app\templates\app\index.html:15
+msgid "Informatics"
+msgstr "Informatyka"
+
+#: .\app\templates\app\index.html:16
+msgid "Studying computer science at SGGW, you will learn, among others, about:"
+msgstr "Studiując informatykę na SGGW, dowiesz się między innymi o:"
+
+#: .\app\templates\app\index.html:20
+msgid "Physical foundations of information theory"
+msgstr "Fizycznych podstawach teorii informacji"
+
+#: .\app\templates\app\index.html:24
+msgid "Information protection and cryptology"
+msgstr "Ochronie informacji i kryptologii"
+
+#: .\app\templates\app\index.html:28
+msgid "Computer networks (CISCO technologies)"
+msgstr "Sieciach komputerowych (technologie CISCO)"
+
+#: .\app\templates\app\index.html:32
+msgid "Security of computer networks and systems"
+msgstr "Bezpieczeństwie sieci i systemów komputerowych"
+
+#: .\app\templates\app\index.html:36
+msgid "Wireless communications and mobile systems"
+msgstr "Komunikacji bezprzewodowych i systemów mobilnych"
+
+#: .\app\templates\app\index.html:40
+msgid "Diagnostics of analog systems"
+msgstr "Diagnostyce systemów analogowych"
+
+#: .\app\templates\app\index.html:44
+msgid "Computer vision"
+msgstr "Wizji komputerowej"
+
+#: .\app\templates\app\index.html:51
+msgid "The program for the first semester is presented below."
+msgstr "Poniżej przedstawiono program dla semestru pierwszego."
+
+#: .\app\templates\app\index.html:54
+msgid "General description of the abbreviations:"
+msgstr "Opis ogólny skrótów:"
+
+#: .\app\templates\app\index.html:56
+msgid "N - number"
+msgstr "L - liczba"
+
+#: .\app\templates\app\index.html:57
+msgid "h - hours"
+msgstr "g - godzin"
+
+#: .\app\templates\app\index.html:58
+msgid "lec - lecture"
+msgstr "wyk - wykładu"
+
+#: .\app\templates\app\index.html:59
+#, fuzzy
+#| msgid "ex - exercises"
+msgid "exe - exercises"
+msgstr "ćw - ćwiczeń"
+
+#: .\app\templates\app\index.html:60
+msgid "lab - laboratory"
+msgstr "lab - laboratoryjnych"
+
+#: .\app\templates\app\index.html:62
+msgid "Description of class status symbols:"
+msgstr "Opis symboli statusu zajęć:"
+
+#: .\app\templates\app\index.html:64
+msgid "P - basic classes"
+msgstr "P - zajęcia podstawowe"
+
+#: .\app\templates\app\index.html:65
+msgid "O - obligatory classes"
+msgstr "O - zajęcia obligatoryjne"
+
+#: .\app\templates\app\index.html:66
+msgid "N - general academic profile "
+msgstr "N - profil ogólnoakademicki"
+
+#: .\app\templates\app\index.html:73
+msgid "The name of an object"
+msgstr "Nazwa Przedmiotu"
+
+#: .\app\templates\app\index.html:74
+msgid "N.h. lec."
+msgstr "L.g. wyk."
+
+#: .\app\templates\app\index.html:75
+msgid "N.h. exe."
+msgstr "L.g. ćw."
+
+#: .\app\templates\app\index.html:76
+msgid "N.h. exe. lab."
+msgstr "L.g. ćw. lab."
+
+#: .\app\templates\app\index.html:77
+msgid "Credit type"
+msgstr "Typ zaliczenia\t"
+
+#: .\app\templates\app\index.html:78
+msgid "ECTS"
+msgstr "ECTS"
+
+#: .\app\templates\app\index.html:79
+msgid "Statuses"
+msgstr "Statusy"
+
+#: .\app\templates\app\index.html:84
+msgid "Introduction to programming"
+msgstr "Wstęp do programowania"
+
+#: .\app\templates\app\index.html:88 .\app\templates\app\index.html:97
+#: .\app\templates\app\index.html:106 .\app\templates\app\index.html:115
+#: .\app\templates\app\index.html:124
+msgid "Exam"
+msgstr "Egzamin"
+
+#: .\app\templates\app\index.html:93
+msgid "Basics of mathematical analysis"
+msgstr "Podstawy analizy matematycznej"
+
+#: .\app\templates\app\index.html:102
+msgid "Fundamentals of higher mathematics"
+msgstr "Podstawy matematyki wyższej"
+
+#: .\app\templates\app\index.html:111
+msgid "Discrete mathematics 1"
+msgstr "Matematyka dyskretna 1"
+
+#: .\app\templates\app\index.html:120
+msgid "Fundamentals of Physics"
+msgstr "Podstawy fizyki"
+
+#: .\app\templates\app\index.html:129
+msgid "Algorithmic reasoning"
+msgstr "Rozumowania algorytmiczne"
+
+#: .\app\templates\app\index.html:133 .\app\templates\app\index.html:142
+msgid "Rating"
+msgstr "Ocena"
+
+#: .\app\templates\app\index.html:138
+msgid "Ergonomics and OHS"
+msgstr "Ergonomia i BHP"
+
+#: .\app\templates\app\index.html:153
+msgid "Forms of contact"
+msgstr "Formy Kontaktu"
+
+#: .\app\templates\app\index.html:157
+msgid "Telephone"
+msgstr "Telefon"
+
+#: .\app\templates\app\index.html:165
+msgid "ATTENTION!"
+msgstr "UWAGA"
+
+#: .\app\templates\app\index.html:165
+#, fuzzy
+#| msgid ""
+#| "This website uses cookies. Information obtained through cookies are "
+#| "mainly used for statistical purposes. Staying on"
+msgid ""
+"This website uses cookies. Information obtained through cookies are mainly "
+"used for statistical purposes. Staying on you agree to save them in your "
+"browser."
+msgstr ""
+"Niniejsza strona wykorzystuje pliki cookies. Informacje uzyskane za pomocą "
+"cookies wykorzystywane są głównie w celach statystycznych. Pozostając na "
+"stronie godzisz się na ich zapisywanie w Twojej przeglądarce."
+
+#: .\app\templates\app\index.html:167
+msgid "Close the warning"
+msgstr "Zamknij ostrzeżenie"
+
+#, fuzzy
+#~| msgid "Contact"
+#~ msgid "Kontakt"
+#~ msgstr "Kontakt"

@@ -1,0 +1,172 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+{% load i18n %}
+	<div class="jumbotron">
+		<section id="first" class="page">
+		  <h1 class="display-3">WZIM</h1>
+		  <hr class="my-4">
+		  <p>{% trans "The Faculty of Applied Informatics and Mathematics was established on January 1, 2008 on the basis of the Interfaculty Study of Computer Science and Econometrics (later called: Interfaculty Study of Computer Science Applications). The study was established by the Senate of the Warsaw University of Life Sciences (SGGW) on 24 January 2001. The aim of the study was to educate students in computer science and econometrics using the SGGW didactic base. The classes were conducted mainly by SGGW scientific staff dealing with mathematics and IT, employed in various University organizational units." %}</p>
+		  <p class="lead">
+			<a class="btn btn-primary btn-lg" href="http://www.wzim.sggw.pl/wydzial/prezentacja-wydzialu/" role="button">{% trans "Read more." %}</a>
+		  </p>
+		</section>
+		<section id="second" class="page">
+		  <h1 class="display-3">{% trans "Informatics" %}</h1>
+		  <p class="lead">{% trans "Studying computer science at SGGW, you will learn, among others, about:" %}</p>
+		  <hr class="my-4">
+			<table class="table table-hover">
+					<tr class="table-secondary">
+						<td>{% trans "Physical foundations of information theory" %}</td>
+						<td></td>
+					</tr>
+					<tr class="table-secondary">
+						<td>{% trans "Information protection and cryptology" %}</td>
+						<td></td>
+					</tr>
+					<tr class="table-secondary">
+						<td>{% trans "Computer networks (CISCO technologies)" %}</td>
+						<td></td>
+					</tr>
+					<tr class="table-secondary">
+						<td>{% trans "Security of computer networks and systems" %}</td>
+						<td></td>
+					</tr>
+					<tr class="table-secondary">
+						<td>{% trans "Wireless communications and mobile systems" %}</td>
+						<td></td>
+					</tr>
+					<tr class="table-secondary">
+						<td>{% trans "Diagnostics of analog systems" %}</td>
+						<td></td>
+					</tr>
+					<tr class="table-secondary">
+						<td>{% trans "Computer vision" %}</td>
+						<td></td>
+					</tr>
+			</table>
+		</section>
+		<section id="third" class="page">
+		  <h1 class="display-3">{% trans "Program" %}</h1>
+		  <p class="lead">{% trans "The program for the first semester is presented below." %}</p>
+		  <hr class="my-4">
+		  <blockquote class="blockquote">
+				<p class="mb-0"><h4>{% trans "General description of the abbreviations:" %}</h4></p>
+				<p>
+					<h6>{% trans "N - number" %} </h6>
+					<h6>{% trans "h - hours" %}</h6>
+					<h6>{% trans "lec - lecture" %} </h6>
+					<h6>{% trans "exe - exercises" %}</h6>
+					<h6>{% trans "lab - laboratory" %}</h6>
+				</p>
+				<p class="mb-0"><h4>{% trans "Description of class status symbols:" %}</h4></p>
+				<p>
+					<h6>{% trans "P - basic classes" %} </h6>
+					<h6>{% trans "O - obligatory classes" %} </h6>
+					<h6>{% trans "N - general academic profile " %}</h6>
+				</p>
+				<hr class="my-4"></hr>
+		   </blockquote>
+			<table class="table table-hover">
+					<thead>
+					<tr class="table-active">
+						<th scope="col">{% trans "The name of an object" %}</th>
+						<th scope="col">{% trans "N.h. lec." %}</th>
+						<th scope="col">{% trans "N.h. exe." %}</th>
+						<th scope="col">{% trans "N.h. exe. lab." %}</th>=
+						<th scope="col">{% trans "Credit type" %}</th>
+						<th scope="col">{% trans "ECTS" %}</th>
+						<th scope="col">{% trans "Statuses" %}</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="table-light">
+						<td>{% trans "Introduction to programming" %}</td>
+						<td>30</td>
+						<td>0</td>
+						<td>30</td>=
+						<td>{% trans "Exam" %}</td>
+						<td>6</td>
+						<td>P,O,N</td>
+					</tr>
+					<tr class="table-light">
+						<td>{% trans "Basics of mathematical analysis" %}</td>
+						<td>30</td>
+						<td>30</td>
+						<td>0</td>=
+						<td>{% trans "Exam" %}</td>
+						<td>6</td>
+						<td>P,O,N</td>
+					</tr>
+					<tr class="table-light">
+						<td>{% trans "Fundamentals of higher mathematics" %}</td>
+						<td>30</td>
+						<td>30</td>
+						<td>0</td>=
+						<td>{% trans "Exam" %}</td>
+						<td>5</td>
+						<td>P,O,N</td>
+					</tr>
+					<tr class="table-light">
+						<td>{% trans "Discrete mathematics 1" %}</td>
+						<td>30</td>
+						<td>30</td>
+						<td>0</td>=
+						<td>{% trans "Exam" %}</td>
+						<td>5</td>
+						<td>P,O,N</td>
+					</tr>
+					<tr class="table-light">
+						<td>{% trans "Fundamentals of Physics" %}</td>
+						<td>30</td>
+						<td>30</td>
+						<td>0</td>=
+						<td>{% trans "Exam" %}</td>
+						<td>5</td>
+						<td>P,O,N</td>
+					</tr>
+					<tr class="table-light">
+						<td>{% trans "Algorithmic reasoning" %}</td>
+						<td>30</td>
+						<td>0</td>
+						<td>0</td>=
+						<td>{% trans "Rating" %}</td>
+						<td>2</td>
+						<td>P,O</td>
+					</tr>
+					<tr class="table-light">
+						<td>{% trans "Ergonomics and OHS" %}</td>
+						<td>15</td>
+						<td>0</td>
+						<td>0</td>
+						<td>{% trans "Rating" %}</td>
+						<td>1</td>
+						<td>P,O</td>
+					</tr>
+					</tbody>
+			</table>
+		</section>
+		<section id="fourth" class="page">
+		  <h1 class="display-3">{% trans "Contact" %}</h1>
+		  <hr class="my-4">
+		  <div class="card bg-light mb-3" style="max-width: 20rem;">
+		  <div class="card-header">{% trans "Forms of contact" %}</div>
+			  <div class="card-body">
+				<h4 class="card-title">Mail</h4>
+				<p class="card-text">wzim@sggw.pl</p>
+				<h4 class="card-title">{% trans "Telephone" %}</h4>
+				<p class="card-text">(22) 59 372 12</p>
+				<p class="card-text">(22) 59 372 13</p>
+				<p class="card-text">(22) 59 372 15</p>
+			  </div>
+		  </div>
+		</section>
+		<section id="cookie-warn">
+			<p><strong>{% trans "ATTENTION!" %}</strong> {% trans "This website uses cookies. Information obtained through cookies are mainly used for statistical purposes. Staying on you agree to save them in your browser." %} 
+			<a href="javascript:void(0);" id="close-cookie-warn"
+			>{% trans "Close the warning" %}</a></p>
+</section>
+	</div>
+<script src="{% static 'js/spa.js' %}"></script>
+<script src="{% static 'js/projekt1js.js' %}"></script>
+{% endblock%}
